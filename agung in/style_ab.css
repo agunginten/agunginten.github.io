@@ -1,0 +1,460 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+
+/*header*/
+.header{
+	height: 98px;
+	width: 100%;
+	overflow: hidden;
+	clear: both;
+	background-color: rgba(0,0,0,.7);
+	z-index: 100;
+	position: fixed;
+}
+
+.logo{
+	margin-left: 7%;
+	margin-top: ..9%;
+	position: fixed;
+}
+
+.logo img{
+	width: 260px;
+	height: 144px;
+}
+
+.navbar{
+	float: right;
+	margin-right: 5%;
+	font-weight: 500;
+	font-size: 19px;
+	font-family: 'Marcellus', serif;
+	margin-top: -.8%;
+}
+
+.navbar ul li{
+	float: left;
+	list-style: none;
+	padding: 20px;
+	line-height: 35px;
+	cursor: pointer;
+}
+
+.sgbutton{
+	width: 100px;
+	height: 40px;
+	background-color: rgba(0,0,0,0);
+	border: 1px solid #f1c76c;
+	color: white;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+.sgbutton:hover{
+	box-shadow: 0 -4px 0 #f1c76c insert;
+	transition: .5s;
+}
+
+.sgbutton:hover{
+	color: #f1c76c;
+	transition: .3s;
+}
+
+.sgbutton:active{
+	color: #b88007;
+}
+
+.navbar ul li a{
+	color: white;
+	text-decoration: none;
+}
+
+.navbar ul li:hover{
+	box-shadow: 0 -4px 0 #f1c76c insert;
+	transition: .5s;
+}
+
+.navbar ul li a:hover{
+	color: #f1c76c;
+	transition: .3s;
+}
+
+.navbar ul li:active a{
+	color: #b88007;
+}
+
+/*banner*/
+.banner{
+	width: 100%;
+	height: 420px;
+	background-image:url(img/reservation.jpg);
+	background-position: center;
+	background-size: cover; 
+	margin-top: -4%;
+	text-align: center;
+}
+
+.banner h1{
+	padding: 13%;
+	padding-bottom: 0;
+	font-size: 80px;
+	font-weight: 30;
+	color: #e1a522;
+	font-family: Allura;
+}
+
+.banner h2{
+	font-size: 40px;
+	color: #fff;
+	font-family: Arial Black;
+	letter-spacing: .1em;
+	margin-top: -5%;
+}
+
+/*konten*/
+.ab{
+	width: 100%;
+	height: auto;
+	margin: 0;
+	padding:0;
+}
+
+.abb{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	height: auto;
+	text-align: center;
+}
+
+.abb h1{
+	margin-top: 5%;
+	margin-left: 25%;
+	width: 50%;
+}
+
+.abb p{
+	margin-bottom: 5%;
+	margin-left: 25%;
+	width: 50%;
+}
+
+.ab1{
+
+	width: 50%;
+	height: auto;
+	margin-bottom: 5%;
+	float: left;
+}
+
+.ab2{
+
+	width: 50%;
+	height: auto;
+	margin-bottom: 5%;
+	float: right;
+}
+
+.ab1 h1 , p{
+	margin-left: 15%;
+	width: 70%;
+}
+
+.ab2 h1 , p{
+	margin-left: 15%;
+	width: 70%;
+}
+
+.slider{
+	width: 100%;
+	height: 400px;
+	overflow: hidden;
+	clear: both;
+}
+
+.slider ul{
+	animation: slider 10s infinite alternate linear;
+	width: 300%;
+	display: flex;
+
+}
+
+.slider ul li{
+	list-style: none;
+	width: 100%;
+}
+
+#slide1{
+	background-image: url(img/bg1.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 400px;
+	width: 100%;
+	margin-left: -40px;
+	text-align: center;
+}
+
+#slide2{
+	background-image: url(img/SPRING_TEA_5.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 400px;
+	width: 100%;
+	margin-left: -40px;
+	text-align: center;
+}
+
+#slide3{
+	background-image: url(img/reservationn.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 400px;
+	width: 100%;
+	margin-left: -40px;
+	text-align: center;
+}
+
+@keyframes slider {
+	0%{margin-left: 0%;}
+	20%{margin-left: 0%;}
+	25%{margin-left: -100%;}
+	45%{margin-left: -100%;}
+	50%{margin-left: -200%;}
+	95%{margin-left: -200%;}
+	100%{margin-left: -200%;}
+	195%{margin-left: -200%;}
+}
+
+.kontenn{
+	width: 100%;
+	height: auto;
+	margin: 0;
+	padding: 0;
+}
+
+.abs{
+	width: 100%;
+	height: 576px;
+	margin: 0;
+	padding: 0;
+	background-image: url(img/abtbg1.jpg);
+	background-position: right;
+	background-size: cover;
+}
+
+
+.abs-konten{
+	width: 50%;
+	height: auto;
+	float: left;
+}
+
+.abs-ktn{
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 20%;
+	height: auto;
+	text-align: center;
+
+}
+
+.abs-ktn h1{
+	font-family:'Allura',serif;
+	color: #e1a522;
+	font-size: 75px;
+	font-weight: 30;
+	padding: 0;
+	text-align: center;
+}
+
+.abs-ktn h2{
+	font-family:Arial Black;
+	margin-top: -16%;
+	text-align: center;
+	font-size: 35px;
+	letter-spacing: 0.2em;
+}
+
+.abs-konten p{
+	text-align: center;
+}
+
+.abs-poto{
+	width: 50%;
+	height: auto;
+	float: right;
+	text-align: center;
+	margin-top: 7.5%;
+}
+
+.abs-poto img{
+	max-width: 100%;
+	max-height: 100%;
+	padding: 5px;
+}
+
+.abss{
+	width: 100%;
+	height: 630px;
+	margin: 0;
+	padding: 0;
+	background-image: url(img/abtbg.jpg);
+	background-position: right;
+	background-size: cover;
+}
+
+.abss-konten{
+	width: 50%;
+	height: auto;
+	float: right;
+}
+
+.abss-ktn{
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 20%;
+	height: auto;
+	text-align: center;
+
+}
+
+.abss-ktn h1{
+	font-family:'Allura',serif;
+	color: #e1a522;
+	font-size: 75px;
+	font-weight: 30;
+	padding: 0;
+	text-align: center;
+}
+
+.abss-ktn h2{
+	font-family:Arial Black;
+	margin-top: -16%;
+	text-align: center;
+	font-size: 35px;
+	letter-spacing: 0.2em;
+}
+
+.abss-konten p{
+	text-align: center;
+}
+
+.abss-poto{
+	width: 50%;
+	height: auto;
+	float: left;
+	text-align: center;
+	margin-top: 7.5%;
+}
+
+.abss-poto img{
+	max-width: 90%;
+	max-height: 90%;
+	padding: 5px;
+}
+
+/*footer*/
+.footer{
+	width: 100%;
+	height: 350px;
+	background-image: url(img/footerbg.jpg);
+	background-position: center;
+	background-size: cover;
+	clear: both;
+}
+
+.f-konten1{
+	width: 25%;
+	height: 250px;
+	float: left;
+	margin-left: 13%;
+	margin-top: 50px;
+}
+
+.f-konten1 p{
+	color: #ccc;
+	margin-top: 8px;
+	height: 55%;
+	width: 100%;
+	margin-left: 0;
+	margin-bottom: 0;
+}
+
+.f-btn{
+	width: 50%;
+	height: 18%;
+	background-color:#e1a522;
+	border: 1px solid #e1a522;
+	border-radius: 40px;
+	color: white;
+	font-family: times new roman;
+	font-weight: 800;
+	font-size: 14px;
+	line-height: 40px;
+	text-align: center;
+	margin-top: -25px;
+	cursor: pointer;
+}
+
+.f-konten2{
+	width: 23.3%;
+	height: 250px;
+	float: left;
+	margin-left: 5%;
+	margin-top: 40px;
+}
+
+
+.ktn2-jdul, .ktn3-jdul{
+	width: 100%;
+	height: 70px;
+	line-height: 70px;
+	text-align: left;
+	font-family: Palatino Linotype , book antiqua , platino ,serif;
+	font-weight: 500;
+	font-size: 22px;
+	color: #ccc;
+}
+
+.f-konten2 p,.f-konten3 p{
+	width: 100%;
+	margin-left: 0;
+}
+
+.f-konten3{
+	width: 21.6%;
+	height: 250px;
+	float: left;
+	margin-left: 1%;
+	margin-top: 40px;
+	margin-right: 10%;
+}
+
+.f-konten4{
+	width: 100%;
+	height: 60px;
+	line-height: 50px;
+	text-align: center;
+	color: #ccc;
+	background-color: #1c1c1c;
+	clear: both; 
+}
+
+.f-hr{
+	background-color: #ccc;
+	width: 80%;
+	height: 0.1px;
+	clear: both;
+	border: 0.1 solid #ccc;
+	margin-left: 10%;
+	margin-bottom: 10px;
+	margin-top: -10px;
+}
